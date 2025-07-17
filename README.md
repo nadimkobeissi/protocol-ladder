@@ -12,7 +12,7 @@ We consider three separates set of problems, focusing on
  * asymmetric primitves;
  * protocols.
 
-The following sections provide the details for each of those sets.
+The following sections provide the details for each of those sets. To contribute to the repository, see the Contributing section below.
 
 
 # Protocols
@@ -217,13 +217,19 @@ subfolder: [kemdem](kemdem/)
 |  Medium? | Easy        | Easy      | Easy      |
 
 
-# Symmetric primitives
+# Contributing
 
-WIP
+We are open to outside contributions for the problems, which should follow a few guidelines:
+ * the protocol/construction and security models must be explained in terms that clearly relate them to the problem sets or other notes provided in the repository;
+ * the file contains the header defined above;
+ * the code is commented and executable;
+ * the "code quality" is up to par with existing proofs of the same tool;
+ * the README tables are updated.
 
-# Asymmetric primitives
+If an example corresponds to a new tool, it should be an open source tool from the research community with at least one bibliographical reference specifying its formal guarantees.
 
-WIP
+Note that we highlight some models in the "how to start with the ladder" tutorials we are developing on the homepage of the project. While we do not for the moment welcome contributions for the tutorial we are developing ourselves, we will however be maintaining a list of additional and different tutorials.
+
 # Acknowledgments
 
 This work was initiated by the HACS workshop. The main contributors for the design of the problems set are: Manuel Barbosa (primitives), Cas Cremers (protocols), François Dupressoir (primitives and protocols), Charlie Jacomme (protocols), Aurora Naska (protocols), Trevor Perrin (main coordinator), Mike Rosulek (primitives). Doreen Riepel and Paul Rösler contributed computational models and detailed proofs for two of the proposed protocols. We additionally thank the following for their valuable feedback: Karthikeyan Bhargavan, Jonathan Katz, Devon Tuma, Bas Spitters, and Théophile Wallez. Further authorship attributions can be found in specific solutions.
