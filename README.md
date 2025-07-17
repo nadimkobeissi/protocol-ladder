@@ -12,11 +12,11 @@ We consider three separates set of problems, focusing on
  * asymmetric primitves;
  * protocols.
 
-The following sections provide the details for each of those sets.
+The following sections provide the details for each of those sets. To contribute to the repository, see the Contributing section below.
 
 ## Protocols
 
-The problem sets and possible modeling options are detailed in the [pdf notes](https://github.com/charlie-j/fm-crypto-lib/blob/main/Notes/main.pdf), which should be read first. Then it is possible to explore the solutions, summarized below. For people hoping to get familiar with cryptographic definitions and proofs of key-exchanges, a pen-and-paper solution is available [here](https://github.com/charlie-j/fm-crypto-lib/blob/main/Notes/computational/main.pdf) for problem 2 (the signed DH protocol) and 4 (the simplified NTOR).
+The problem sets and possible modeling options are detailed in the [pdf notes](/Notes/main.pdf), which should be read first. Then it is possible to explore the solutions, summarized below. For people hoping to get familiar with cryptographic definitions and proofs of key-exchanges, a pen-and-paper solution is available [here](/Notes/computational/main.pdf) for problem 2 (the signed DH protocol) and 4 (the simplified NTOR).
 
 The directory structure for problems is as follows: there are top-level directories for each problem. Within these problem directories, there are tool-named subdirectories that contain solutions for that problem with the named tool.
 
@@ -209,13 +209,18 @@ subfolder: [kemdem](kemdem/)
 |  Medium? | Easy        | Easy      | Easy      |
 
 
-## Symmetric primitives
+# Contributing
 
-WIP
+We are open to outside contributions for the problems, which should follow a few guidelines:
+ * the protocol/construction and security models must be explained in terms that clearly relate them to the problem sets or other notes provided in the repository;
+ * the file contains the header defined above;
+ * the code is commented and executable;
+ * the "code quality" is up to par with existing proofs of the same tool;
+ * the README tables are updated.
 
-## Asymmetric primitives
+If an example corresponds to a new tool, it should be an open source tool from the research community with at least one bibliographical reference specifying its formal guarantees.
 
-WIP
+Note that we highlight some models in the "how to start with the ladder" tutorials we are developing on the homepage of the project. While we do not for the moment welcome contributions for the tutorial we are developing ourselves, we will however be maintaining a list of additional and different tutorials.
 
 ## Acknowledgments
 
